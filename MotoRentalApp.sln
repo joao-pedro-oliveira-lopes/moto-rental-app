@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Api", "MotoRentalApp.Api\MotoRentalApp.Api.csproj", "{24710B94-EF08-4EAF-A35D-462D5711A883}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Api", "src\MotoRentalApp.Api\MotoRentalApp.Api.csproj", "{24710B94-EF08-4EAF-A35D-462D5711A883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C329D478-5992-4473-93A3-818E0709C088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Api", "src\MotoRentalApp.Api\MotoRentalApp.Api.csproj", "{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Application", "src\MotoRentalApp.Application\MotoRentalApp.Application.csproj", "{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Domain", "src\MotoRentalApp.Domain\MotoRentalApp.Domain.csproj", "{17EF9932-747D-4F5F-9F91-61A8A6F03DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Infrastructure", "src\MotoRentalApp.Infrastructure\MotoRentalApp.Infrastructure.csproj", "{0E18FBF5-C06C-4697-B30E-0405BCFBF58F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F2ED6EF3-2A3E-4BD4-A831-51185E4E318F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoRentalApp.Tests", "tests\MotoRentalApp.Tests\MotoRentalApp.Tests.csproj", "{FEE113A8-E11C-4A68-8C77-A547F589261F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +32,32 @@ Global
 		{24710B94-EF08-4EAF-A35D-462D5711A883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24710B94-EF08-4EAF-A35D-462D5711A883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24710B94-EF08-4EAF-A35D-462D5711A883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EF9932-747D-4F5F-9F91-61A8A6F03DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EF9932-747D-4F5F-9F91-61A8A6F03DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EF9932-747D-4F5F-9F91-61A8A6F03DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EF9932-747D-4F5F-9F91-61A8A6F03DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E18FBF5-C06C-4697-B30E-0405BCFBF58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E18FBF5-C06C-4697-B30E-0405BCFBF58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E18FBF5-C06C-4697-B30E-0405BCFBF58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E18FBF5-C06C-4697-B30E-0405BCFBF58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE113A8-E11C-4A68-8C77-A547F589261F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE113A8-E11C-4A68-8C77-A547F589261F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE113A8-E11C-4A68-8C77-A547F589261F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE113A8-E11C-4A68-8C77-A547F589261F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{757AE7B2-50D3-49F4-ABB8-6DFA2A18ADB3} = {C329D478-5992-4473-93A3-818E0709C088}
+		{DCAC27B9-B5AE-431B-9DB5-D2C3D285712F} = {C329D478-5992-4473-93A3-818E0709C088}
+		{17EF9932-747D-4F5F-9F91-61A8A6F03DCD} = {C329D478-5992-4473-93A3-818E0709C088}
+		{0E18FBF5-C06C-4697-B30E-0405BCFBF58F} = {C329D478-5992-4473-93A3-818E0709C088}
+		{FEE113A8-E11C-4A68-8C77-A547F589261F} = {F2ED6EF3-2A3E-4BD4-A831-51185E4E318F}
 	EndGlobalSection
 EndGlobal

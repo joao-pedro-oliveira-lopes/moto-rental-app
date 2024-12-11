@@ -1,0 +1,12 @@
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/bin/Debug/net8.0/MotoRentalApp.Domain.deps.json
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/bin/Debug/net8.0/MotoRentalApp.Domain.dll
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/bin/Debug/net8.0/MotoRentalApp.Domain.pdb
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.AssemblyInfoInputs.cache
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.AssemblyInfo.cs
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.csproj.CoreCompileInputs.cache
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.sourcelink.json
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.dll
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/refint/MotoRentalApp.Domain.dll
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/MotoRentalApp.Domain.pdb
+/home/joao/projects/moto-rental-app/src/MotoRentalApp.Domain/obj/Debug/net8.0/ref/MotoRentalApp.Domain.dll

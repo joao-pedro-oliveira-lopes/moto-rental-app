@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=db;Database=mottu;Username=postgres;Password=123fatec;
+      - JwtSettings__Issuer=MotoRentalAppIssuer
+      - JwtSettings__Audience=MotoRentalAppAudience
+      - JwtSettings__SecretKey=superSecretKey12345
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123fatec
+      POSTGRES_DB: mottu
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: "rabbitmq:management"
+    ports:
+      - "15672:15672"  
+      - "5672:5672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=password
+
+volumes:
+  postgres_data:
+    driver: local

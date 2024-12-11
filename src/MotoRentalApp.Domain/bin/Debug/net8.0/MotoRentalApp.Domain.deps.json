@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MotoRentalApp.Domain/1.0.0": {
+        "runtime": {
+          "MotoRentalApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MotoRentalApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
